@@ -8,16 +8,16 @@
               <div>
                 <img :src="getImageSrc(product.image, product.products)" alt="Product image" class="product-image" />
               </div>
-              <div>
-                <h3 style="font-size: 20px; font-weight: bold;">{{ product.title || product.name }}</h3>
-              </div>
-              <div>
-                <img :src="getRatingSrc(product.rating.rate, product.rating)" alt="Product rating" class="rating-img" /><br>
-              </div>
-              <div>
-                <h3 style="font-size: 24px; font-weight: bold;">{{ product.price }}</h3>
-              </div>
             </router-link>
+            <div>
+              <h3 style="font-size: 20px; font-weight: bold; margin: 0">{{ product.title || product.name }}</h3>
+            </div>
+            <div>
+              <img :src="getRatingSrc(product.rating.rate, product.rating)" alt="Product rating" class="rating-img" /><br>
+            </div>
+            <div>
+              <h3 style="font-size: 24px; font-weight: bold; margin: 0;">{{ product.price }}</h3>
+            </div>
           </div>
         </li>
       </ul>
@@ -84,10 +84,8 @@
   }
   .product-items {
     cursor: pointer;
-    /* padding: 20px; */
     text-align: center;
     flex: 0 0 30%;
-    /* margin-bottom: 20px; */
   }
   .view {
     padding: 16px 54px;

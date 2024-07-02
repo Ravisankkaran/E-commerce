@@ -50,7 +50,7 @@
   
   .product-items {
     cursor: pointer;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     flex: 0 0 30%;
     margin-bottom: 20px;

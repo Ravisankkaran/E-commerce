@@ -76,7 +76,7 @@ export default {
   .hero-section {
     background-color: #F2F0F1;
   }
-  
+ 
   .img {
     display: flex;
     /* gap: 100px; */
